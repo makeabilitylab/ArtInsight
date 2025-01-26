@@ -8,6 +8,10 @@ ArtInsight is an iOS app to support parents who are blind or have low-vision (BL
 Cite the ArtInsight IUI paper:
 Arnavi Chheda-Kothary, Ritesh Kanchi, Chris Sanders, Kevin Xiao, Aditya Sengupta, Melanie Kneitmix, Jacob O. Wobbrock, and Jon E. Froehlich. 2025. ArtInsight: Enabling AI-Powered Artwork Engagement for Mixed Visual-Ability Families. In 30th International Conference on Intelligent User Interfaces (IUI ’25), March 24–27, 2025, Cagliari, Italy. ACM, New York, NY, USA, 21 pages. https://doi.org/10.1145/3708359.3712082
 
+This work was supported in part by the National Science Foundation grant 2125087. This work was also supported in part by The Mani Charitable Foundation. Any opinions, findings, conclusions or recommendations expressed in our work are those of the authors and do not necessarily reflect those of any supporter.
+
+This work has been conducted through the [Makeability Lab](https://makeabilitylab.cs.washington.edu/) and the [ACE Lab](https://depts.washington.edu/acelab/) at the University of Washington.
+
 ## Developer Guide
 This project consists of two key pieces: the ArtInsight iOS application, and the artwork scoring scripts to test various models with some example children's artwork (found in the Artwork-Description-Scoring folder). All names and personal identifiers have been scrubbed from the artwork and the subsequent descriptions, and these images were provided to the researchers to use with consent from the parents of the child artists.
 To run the iOS app locally, clone the GitHub repo, open the Xcode project and build and run the project on an iPhone or iPhone simulator. Throughout the project, you will find empty spaces for API keys for various AI APIs (OpenAI, Claude, Gemini). Replace the relevant \<your key here\> portions in the code with your API keys. Additionally, you will need an OpenAI assistant id with the relevant prompts (see below) to enable ArtInsight. Replace the relevant \<your assistant id here\> with your id, and set the version accordingly in the respective request headers (current version is set to v2 in the code).
