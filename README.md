@@ -5,7 +5,8 @@
 ArtInsight is an iOS app to support parents who are blind or have low-vision (BLV) to engage with their sighted children’s artwork. The app includes an accessible camera view. When a photo of artwork is taken using the app, a description of the artwork is generated using GPT. Following findings from formative research, the app includes a human-in-the-loop system to support children and parents editing AI descriptions as they feel appropriate. Descriptions will be saved in the app for future reference.
 
 ### Research
-Cite the ArtInsight IUI paper:
+Cite the ArtInsight IUI 2025 paper:
+
 Arnavi Chheda-Kothary, Ritesh Kanchi, Chris Sanders, Kevin Xiao, Aditya Sengupta, Melanie Kneitmix, Jacob O. Wobbrock, and Jon E. Froehlich. 2025. ArtInsight: Enabling AI-Powered Artwork Engagement for Mixed Visual-Ability Families. In 30th International Conference on Intelligent User Interfaces (IUI ’25), March 24–27, 2025, Cagliari, Italy. ACM, New York, NY, USA, 21 pages. https://doi.org/10.1145/3708359.3712082
 
 This work was supported in part by the National Science Foundation grant 2125087. This work was also supported in part by The Mani Charitable Foundation. Any opinions, findings, conclusions or recommendations expressed in our work are those of the authors and do not necessarily reflect those of any supporter.
