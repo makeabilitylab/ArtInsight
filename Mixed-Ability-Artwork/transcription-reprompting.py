@@ -171,8 +171,10 @@ class OpenAIService:
 
 # Open AI API Key -- Replace the below string with your key.
 api_key = '<your key here>'
-assistant_id = 'asst_0LIabJN7YRsy5hLyH1B3MeX0'
-image_path = '/Users/adityasengupta/Documents/GitHub/Mixed-Ability-Artwork/Artwork-Description-Scoring/images/turkey.jpeg'
+# Open AI Assistant -- Replace the below string with your assistant id.
+assistant_id = '<your assistant id here>'
+# TODO: Update to local image path
+image_path = ''
 
 service = OpenAIService(api_key, assistant_id)
 service.describe(image_path)
